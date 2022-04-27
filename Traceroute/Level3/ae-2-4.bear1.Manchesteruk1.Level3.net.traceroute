@@ -1,0 +1,64 @@
+Probe 46.151.9.170
+hop = 1  IP = 192.168.88.1   No rDNS  TTL = 64 rtt = 0.616
+hop = 2  IP = 46.151.9.1   No rDNS  TTL = 63 rtt = 2.756
+hop = 3  IP = 46.151.8.1   No rDNS  TTL = 62 rtt = 2.818
+hop = 4  IP = 85.143.178.133   rDNS = 85-143-178-133.customer.comfortel.pro  TTL = 252  rtt = 2.716
+hop = 5  IP = 10.200.1.94   No rDNS  TTL = 251 rtt = 4.67
+hop = 6  IP = 80.64.103.30   No rDNS  TTL = 248 rtt = 3.74
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = 212.73.250.177   rDNS = et-3-0-21-444.edge4.Stockholm2.Level3.net  TTL = 246  rtt = 17.108
+hop = 9  IP = 4.69.135.161   rDNS = ae-19-3204.ebr2.Stockholm2.Level3.net  TTL = 244  rtt = 21.806
+hop = 10  IP = 4.69.141.41   rDNS = ae50.50.ebr2.amsterdam1.level3.net  TTL = 245  rtt = 35.158
+hop = 11  IP = 4.69.140.17   rDNS = ae49.49.ebr2.London1.level3.net  TTL = 245  rtt = 44.095
+hop = 12  IP = 4.69.167.34   rDNS = ae-3-3.bear1.Manchesteruk2.Level3.net  TTL = 56  rtt = 46.607
+hop = 13  IP = 4.69.167.42   rDNS = ae-2-4.bear1.Manchesteruk1.Level3.net  TTL = 56  rtt = 47.518
+Probe 95.43.102.100
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 0.728
+hop = 2  IP = 82.137.110.2   rDNS = 82-137-110-2.ip.btc-net.bg  TTL = 63  rtt = 0.993
+hop = 3  IP = *   No rDNS  TTL = * rtt = *
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 212.162.31.221   rDNS = ae65-3500.bar1.Sofia2.Level3.net  TTL = 250  rtt = 2.55
+hop = 6  IP = 4.69.143.126   rDNS = ae-17-17.ebr2.Frankfurt1.Level3.net  TTL = 248  rtt = 34.674
+hop = 7  IP = 4.69.163.145   rDNS = ae-101-0.ebr1.Frankfurt1.Level3.net  TTL = 248  rtt = 29.869
+hop = 8  IP = 4.69.137.17   rDNS = ae-25-25.ebr1.London1.Level3.net  TTL = 246  rtt = 40.367
+hop = 9  IP = 4.69.153.234   rDNS = ae1.0.ebr2.London1.level3.net  TTL = 246  rtt = 49.202
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+hop = 11  IP = 4.69.167.42   rDNS = ae-2-4.bear1.Manchesteruk1.Level3.net  TTL = 59  rtt = 45.131
+Probe 82.64.170.202
+hop = 1  IP = 192.168.201.51   No rDNS  TTL = 64 rtt = 0.625
+hop = 2  IP = 192.168.1.254   No rDNS  TTL = 64 rtt = 0.666
+hop = 3  IP = 194.149.169.174   No rDNS  TTL = 254 rtt = 9.165
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 62.115.46.68   No rDNS  TTL = 253 rtt = 8.143
+hop = 6  IP = 62.115.118.62   No rDNS  TTL = 250 rtt = 8.87
+hop = 7  IP = 62.115.125.117   No rDNS  TTL = 251 rtt = 9.474
+hop = 8  IP = 4.68.74.245   No rDNS  TTL = 251 rtt = 8.652
+hop = 9  IP = 4.69.133.233   rDNS = ae20.3111.ebr1.paris1.level3.net  TTL = 249  rtt = 8.829
+hop = 10  IP = 4.69.132.117   rDNS = ae-40-40.ebr2.London2.Level3.net  TTL = 247  rtt = 15.278
+hop = 11  IP = 4.69.167.42   rDNS = ae-2-4.bear1.Manchesteruk1.Level3.net  TTL = 58  rtt = 19.388
+Probe 218.219.147.64
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 1.369
+hop = 2  IP = 218.219.145.2   rDNS = flets-nte-poi2.edit.ne.jp  TTL = 254  rtt = 4.667
+hop = 3  IP = 218.219.145.1   rDNS = flets-gw-poi2.edit.ne.jp  TTL = 62  rtt = 5.025
+hop = 4  IP = 218.219.145.33   No rDNS  TTL = 60 rtt = 4.721
+hop = 5  IP = 65.49.108.209   No rDNS  TTL = 59 rtt = 4.935
+hop = 6  IP = 74.82.50.94   No rDNS  TTL = 248 rtt = 7.989
+hop = 7  IP = 4.69.217.17   rDNS = ae-9-3605.ebr2.tokyo4.level3.net  TTL = 246  rtt = 5.999
+hop = 8  IP = 4.69.215.46   rDNS = ae-3-3.ebr1.singapore3.level3.net  TTL = 245  rtt = 82.687
+hop = 9  IP = 4.69.220.237   rDNS = ae8.8.ebr1.Singapore4.level3.net  TTL = 244  rtt = 82.175
+hop = 10  IP = 4.69.220.234   rDNS = ae1.0.ebr2.Singapore4.level3.net  TTL = 244  rtt = 82.61
+hop = 11  IP = 4.69.207.130   rDNS = ae-10-10.ebr1.marseille2.level3.net  TTL = 243  rtt = 216.667
+hop = 12  IP = 4.69.202.10   rDNS = ae39.39.ebr1.paris1.level3.net  TTL = 243  rtt = 216.754
+hop = 13  IP = 4.69.132.117   rDNS = ae-40-40.ebr2.London2.Level3.net  TTL = 236  rtt = 232.514
+hop = 14  IP = 4.69.167.42   rDNS = ae-2-4.bear1.Manchesteruk1.Level3.net  TTL = 47  rtt = 237.132
+Probe 153.92.43.249
+hop = 1  IP = 153.92.43.254   No rDNS  TTL = 255 rtt = 0.265
+hop = 2  IP = 10.255.255.2   No rDNS  TTL = 254 rtt = 0.239
+hop = 3  IP = 185.74.25.250   No rDNS  TTL = 253 rtt = 1.042
+hop = 4  IP = 94.31.7.60   No rDNS  TTL = 61 rtt = 1.378
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = 64.125.28.225   No rDNS  TTL = 250 rtt = 1.476
+hop = 7  IP = 4.68.70.65   rDNS = ae-12.edge7.London1.Level3.net  TTL = 245  rtt = 12.502
+hop = 8  IP = 4.69.166.5   rDNS = ae-11-3215.ebr2.London1.Level3.net  TTL = 243  rtt = 2.064
+hop = 9  IP = 4.69.167.34   rDNS = ae-3-3.bear1.Manchesteruk2.Level3.net  TTL = 54  rtt = 6.152
+hop = 10  IP = 4.69.167.42   rDNS = ae-2-4.bear1.Manchesteruk1.Level3.net  TTL = 54  rtt = 6.629

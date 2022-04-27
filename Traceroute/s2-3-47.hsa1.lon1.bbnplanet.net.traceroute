@@ -1,0 +1,24 @@
+Probe 95.43.102.100
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 0.618
+hop = 2  IP = 82.137.110.2   rDNS = 82-137-110-2.ip.btc-net.bg  TTL = 63  rtt = 1.058
+hop = 3  IP = *   No rDNS  TTL = * rtt = *
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 212.162.46.177   rDNS = xe-8-1-3-3180.bar1.Sofia1.Level3.net  TTL = 251  rtt = 7.547
+hop = 6  IP = 195.16.162.73   No rDNS  TTL = 59 rtt = 25.889
+Probe 218.219.147.64
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 7.144
+hop = 2  IP = 218.219.145.2   rDNS = flets-nte-poi2.edit.ne.jp  TTL = 254  rtt = 4.822
+hop = 3  IP = 218.219.145.1   rDNS = flets-gw-poi2.edit.ne.jp  TTL = 62  rtt = 4.999
+hop = 4  IP = 218.219.145.33   No rDNS  TTL = 60 rtt = 4.749
+hop = 5  IP = 65.49.108.209   No rDNS  TTL = 59 rtt = 4.988
+hop = 6  IP = 74.82.50.94   No rDNS  TTL = 248 rtt = 10.0
+hop = 7  IP = 195.16.162.73   No rDNS  TTL = 52 rtt = 244.277
+Probe 153.92.43.249
+hop = 1  IP = 153.92.43.254   No rDNS  TTL = 255 rtt = 0.212
+hop = 2  IP = 10.255.255.2   No rDNS  TTL = 254 rtt = 0.198
+hop = 3  IP = 185.74.25.250   No rDNS  TTL = 253 rtt = 1.356
+hop = 4  IP = 94.31.7.60   No rDNS  TTL = 61 rtt = 1.852
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = 64.125.28.225   No rDNS  TTL = 250 rtt = 1.03
+hop = 7  IP = 4.68.70.65   rDNS = ae-12.edge7.London1.Level3.net  TTL = 245  rtt = 1.399
+hop = 8  IP = 195.16.162.73   No rDNS  TTL = 55 rtt = 12.951

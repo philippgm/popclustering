@@ -1,0 +1,74 @@
+Probe 46.151.9.170
+hop = 1  IP = 192.168.88.1   No rDNS  TTL = 64 rtt = 4.277
+hop = 2  IP = 46.151.9.1   No rDNS  TTL = 63 rtt = 2.656
+hop = 3  IP = 46.151.8.1   No rDNS  TTL = 62 rtt = 2.297
+hop = 4  IP = 85.143.178.133   rDNS = 85-143-178-133.customer.comfortel.pro  TTL = 252  rtt = 2.003
+hop = 5  IP = 10.200.1.94   No rDNS  TTL = 251 rtt = 2.123
+hop = 6  IP = 80.64.103.30   No rDNS  TTL = 248 rtt = 2.473
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = 130.117.50.225   No rDNS  TTL = 246 rtt = 13.209
+hop = 10  IP = 154.54.61.237   No rDNS  TTL = 245 rtt = 24.419
+hop = 11  IP = 154.54.61.229   No rDNS  TTL = 244 rtt = 29.661
+hop = 12  IP = 154.54.38.209   No rDNS  TTL = 243 rtt = 121.874
+hop = 13  IP = 130.117.50.6   No rDNS  TTL = 242 rtt = 36.634
+hop = 14  IP = 130.117.15.130   No rDNS  TTL = 246 rtt = 38.439
+hop = 15  IP = 129.250.7.86   rDNS = ae-3.r20.amstnl07.nl.bb.gin.ntt.net  TTL = 244  rtt = 33.984
+hop = 16  IP = 129.250.5.1   rDNS = ae-15.r20.londen12.uk.bb.gin.ntt.net  TTL = 241  rtt = 44.515
+hop = 17  IP = 129.250.6.147   rDNS = ae-7.r20.nwrknj03.us.bb.gin.ntt.net  TTL = 242  rtt = 107.943
+hop = 18  IP = 129.250.6.177   rDNS = ae-4.r24.sttlwa01.us.bb.gin.ntt.net  TTL = 240  rtt = 179.827
+hop = 19  IP = 129.250.4.143   rDNS = ae-13.r30.tokyjp05.jp.bb.gin.ntt.net  TTL = 240  rtt = 261.727
+hop = 20  IP = 129.250.9.101   rDNS = ae-16.a00.tokyjp09.jp.bb.gin.ntt.net  TTL = 44  rtt = 271.059
+Probe 95.43.102.100
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 7.09
+hop = 2  IP = 82.137.110.2   rDNS = 82-137-110-2.ip.btc-net.bg  TTL = 63  rtt = 0.924
+hop = 3  IP = *   No rDNS  TTL = * rtt = *
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 212.162.31.221   rDNS = ae65-3500.bar1.Sofia2.Level3.net  TTL = 250  rtt = 1.328
+hop = 6  IP = 4.69.158.190   rDNS = ae2-3221.edge8.frankfurt1.level3.net  TTL = 248  rtt = 26.14
+hop = 7  IP = 129.250.9.5   rDNS = ae-37.r01.frnkge07.de.bb.gin.ntt.net  TTL = 248  rtt = 26.24
+hop = 8  IP = 129.250.4.78   rDNS = ae-5.r20.frnkge13.de.bb.gin.ntt.net  TTL = 245  rtt = 26.44
+hop = 9  IP = 129.250.3.12   rDNS = ae-14.r21.londen12.uk.bb.gin.ntt.net  TTL = 246  rtt = 38.404
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+hop = 11  IP = 129.250.3.189   rDNS = ae-2.r25.lsanca07.us.bb.gin.ntt.net  TTL = 240  rtt = 165.907
+hop = 12  IP = 129.250.3.192   rDNS = ae-12.r31.tokyjp05.jp.bb.gin.ntt.net  TTL = 240  rtt = 275.433
+hop = 13  IP = 129.250.9.101   rDNS = ae-16.a00.tokyjp09.jp.bb.gin.ntt.net  TTL = 49  rtt = 281.53
+Probe 82.64.170.202
+hop = 1  IP = 192.168.201.51   No rDNS  TTL = 64 rtt = 0.574
+hop = 2  IP = 192.168.1.254   No rDNS  TTL = 64 rtt = 0.602
+hop = 3  IP = 194.149.169.168   No rDNS  TTL = 254 rtt = 8.296
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 62.115.46.68   No rDNS  TTL = 253 rtt = 8.779
+hop = 6  IP = 62.115.118.62   No rDNS  TTL = 250 rtt = 8.887
+hop = 7  IP = 62.115.125.167   No rDNS  TTL = 251 rtt = 8.936
+hop = 8  IP = 129.250.9.13   rDNS = ae-5.a01.parsfr04.fr.bb.gin.ntt.net  TTL = 249  rtt = 8.492
+hop = 9  IP = 129.250.4.149   rDNS = ae-8.r21.parsfr04.fr.bb.gin.ntt.net  TTL = 249  rtt = 8.935
+hop = 10  IP = 129.250.6.6   rDNS = ae-13.r24.asbnva02.us.bb.gin.ntt.net  TTL = 247  rtt = 93.68
+hop = 11  IP = 129.250.2.36   rDNS = ae-0.r25.asbnva02.us.bb.gin.ntt.net  TTL = 245  rtt = 98.605
+hop = 12  IP = 129.250.3.189   rDNS = ae-2.r25.lsanca07.us.bb.gin.ntt.net  TTL = 242  rtt = 143.034
+hop = 13  IP = 129.250.3.192   rDNS = ae-12.r31.tokyjp05.jp.bb.gin.ntt.net  TTL = 240  rtt = 264.485
+hop = 14  IP = 129.250.9.101   rDNS = ae-16.a00.tokyjp09.jp.bb.gin.ntt.net  TTL = 48  rtt = 251.06
+Probe 153.92.43.249
+hop = 1  IP = 153.92.43.254   No rDNS  TTL = 255 rtt = 0.324
+hop = 2  IP = 10.255.255.2   No rDNS  TTL = 254 rtt = 0.299
+hop = 3  IP = 185.74.25.250   No rDNS  TTL = 253 rtt = 1.226
+hop = 4  IP = 94.31.7.60   No rDNS  TTL = 61 rtt = 1.054
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = 64.125.28.151   No rDNS  TTL = 250 rtt = 0.98
+hop = 7  IP = 64.125.12.102   No rDNS  TTL = 249 rtt = 37.377
+hop = 8  IP = 129.250.3.214   rDNS = ae-0.r21.londen12.uk.bb.gin.ntt.net  TTL = 247  rtt = 14.757
+hop = 9  IP = 129.250.2.111   rDNS = ae-13.r25.asbnva02.us.bb.gin.ntt.net  TTL = 242  rtt = 75.812
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+hop = 11  IP = 129.250.3.192   rDNS = ae-12.r31.tokyjp05.jp.bb.gin.ntt.net  TTL = 237  rtt = 238.074
+hop = 12  IP = 129.250.9.101   rDNS = ae-16.a00.tokyjp09.jp.bb.gin.ntt.net  TTL = 51  rtt = 219.848
+Probe 218.219.147.64
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 1.214
+hop = 2  IP = 218.219.145.2   rDNS = flets-nte-poi2.edit.ne.jp  TTL = 254  rtt = 5.083
+hop = 3  IP = 218.219.145.1   rDNS = flets-gw-poi2.edit.ne.jp  TTL = 62  rtt = 4.975
+hop = 4  IP = 218.219.145.33   No rDNS  TTL = 60 rtt = 4.942
+hop = 5  IP = 218.219.145.30   No rDNS  TTL = 60 rtt = 4.629
+hop = 6  IP = 202.17.189.121   No rDNS  TTL = 250 rtt = 4.744
+hop = 7  IP = 61.120.145.241   rDNS = xe-0-0-15-0.a01.tokyjp08.jp.bb.gin.ntt.net  TTL = 248  rtt = 6.015
+hop = 8  IP = 129.250.6.137   rDNS = ae-6.r00.tokyjp08.jp.bb.gin.ntt.net  TTL = 248  rtt = 5.982
+hop = 9  IP = 129.250.6.126   rDNS = ae-16.r30.tokyjp05.jp.bb.gin.ntt.net  TTL = 247  rtt = 5.582
+hop = 10  IP = 129.250.9.101   rDNS = ae-16.a00.tokyjp09.jp.bb.gin.ntt.net  TTL = 55  rtt = 5.96

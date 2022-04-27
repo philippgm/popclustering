@@ -1,0 +1,57 @@
+Probe 95.43.102.100
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 0.786
+hop = 2  IP = 82.137.110.2   rDNS = 82-137-110-2.ip.btc-net.bg  TTL = 63  rtt = 1.036
+hop = 3  IP = *   No rDNS  TTL = * rtt = *
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 212.162.31.221   rDNS = ae65-3500.bar1.Sofia2.Level3.net  TTL = 250  rtt = 1.762
+hop = 6  IP = 195.219.190.2   No rDNS  TTL = 250 rtt = 2.078
+hop = 7  IP = 195.219.190.67   No rDNS  TTL = 249 rtt = 8.938
+hop = 8  IP = 80.231.208.37   rDNS = if-ae-27-2.tcore1.fnm-frankfurt.as6453.net  TTL = 248  rtt = 33.652
+hop = 9  IP = 195.219.194.149   rDNS = if-ae-6-2.tcore1.av2-amsterdam.as6453.net  TTL = 247  rtt = 39.093
+hop = 10  IP = 195.219.194.6   rDNS = if-ae-2-2.tcore2.av2-amsterdam.as6453.net  TTL = 246  rtt = 39.188
+hop = 11  IP = 80.231.131.160   rDNS = if-ae-14-2.tcore2.l78-london.as6453.net  TTL = 245  rtt = 45.787
+hop = 12  IP = 80.231.131.2   rDNS = if-ae-2-2.tcore1.l78-london.as6453.net  TTL = 243  rtt = 48.947
+hop = 13  IP = 80.231.130.20   rDNS = if-ae-66-9.tcore3.nto-newyork.as6453.net  TTL = 240  rtt = 118.359
+hop = 14  IP = 63.243.128.17   rDNS = if-ae-22-2.tcore1.nto-newyork.as6453.net  TTL = 244  rtt = 116.991
+hop = 15  IP = 63.243.128.31   rDNS = if-ae-0-2.tcore1.sqn-sanjose.as6453.net  TTL = 241  rtt = 177.277
+hop = 16  IP = 63.243.205.2   rDNS = if-ae-1-2.tcore2.sqn-sanjose.as6453.net  TTL = 49  rtt = 177.539
+Probe 82.64.170.202
+hop = 1  IP = 192.168.201.51   No rDNS  TTL = 64 rtt = 4.775
+hop = 2  IP = 192.168.1.254   No rDNS  TTL = 64 rtt = 0.836
+hop = 3  IP = 194.149.169.53   No rDNS  TTL = 254 rtt = 8.937
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = 62.115.118.62   No rDNS  TTL = 250 rtt = 9.04
+hop = 7  IP = 62.115.125.167   No rDNS  TTL = 251 rtt = 9.821
+hop = 8  IP = 80.231.154.28   rDNS = ix-ae-25-0.tcore1.pye-paris.as6453.net  TTL = 250  rtt = 8.893
+hop = 9  IP = 80.231.154.143   rDNS = if-ae-3-2.tcore1.l78-london.as6453.net  TTL = 249  rtt = 15.596
+hop = 10  IP = 80.231.130.195   rDNS = if-ae-66-8.tcore3.nto-newyork.as6453.net  TTL = 250  rtt = 83.451
+hop = 11  IP = 63.243.128.17   rDNS = if-ae-22-2.tcore1.nto-newyork.as6453.net  TTL = 249  rtt = 84.538
+hop = 12  IP = 63.243.128.29   rDNS = if-ae-12-2.tcore1.sqn-sanjose.as6453.net  TTL = 242  rtt = 148.685
+hop = 13  IP = 63.243.205.2   rDNS = if-ae-1-2.tcore2.sqn-sanjose.as6453.net  TTL = 50  rtt = 148.638
+Probe 218.219.147.64
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 1.007
+hop = 2  IP = 218.219.145.2   rDNS = flets-nte-poi2.edit.ne.jp  TTL = 254  rtt = 4.828
+hop = 3  IP = 218.219.145.1   rDNS = flets-gw-poi2.edit.ne.jp  TTL = 62  rtt = 4.997
+hop = 4  IP = 218.219.145.33   No rDNS  TTL = 60 rtt = 4.959
+hop = 5  IP = 65.49.108.209   No rDNS  TTL = 59 rtt = 4.945
+hop = 6  IP = 184.105.213.117   rDNS = 100ge11-1.core1.sea1.he.net  TTL = 58  rtt = 85.853
+hop = 7  IP = 62.115.181.197   No rDNS  TTL = 248 rtt = 86.676
+hop = 8  IP = 64.86.123.24   rDNS = ix-ae-16-0.tcore1.00s-seattle.as6453.net  TTL = 245  rtt = 107.954
+hop = 9  IP = 64.86.123.27   rDNS = if-ae-45-2.tcore1.sv1-santaclara.as6453.net  TTL = 246  rtt = 108.173
+hop = 10  IP = 63.243.251.2   rDNS = if-ae-0-2.tcore2.sv1-santaclara.as6453.net  TTL = 247  rtt = 109.604
+hop = 11  IP = 209.58.86.37   rDNS = if-ae-26-2.tcore1.sqn-sanjose.as6453.net  TTL = 248  rtt = 107.562
+hop = 12  IP = 63.243.205.2   rDNS = if-ae-1-2.tcore2.sqn-sanjose.as6453.net  TTL = 56  rtt = 107.872
+Probe 153.92.43.249
+hop = 1  IP = 153.92.43.254   No rDNS  TTL = 255 rtt = 0.15
+hop = 2  IP = 10.255.255.2   No rDNS  TTL = 254 rtt = 0.207
+hop = 3  IP = 185.74.25.250   No rDNS  TTL = 253 rtt = 1.377
+hop = 4  IP = 94.31.7.60   No rDNS  TTL = 61 rtt = 1.108
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = 64.125.28.151   No rDNS  TTL = 250 rtt = 0.987
+hop = 7  IP = 80.231.62.1   rDNS = ix-ae-33-0.tcore1.ldn-london.as6453.net  TTL = 246  rtt = 1.195
+hop = 8  IP = 80.231.62.57   rDNS = if-ae-26-2.tcore2.ldn-london.as6453.net  TTL = 246  rtt = 5.426
+hop = 9  IP = 216.6.81.32   rDNS = if-ae-32-4.tcore3.nto-newyork.as6453.net  TTL = 245  rtt = 76.949
+hop = 10  IP = 63.243.128.17   rDNS = if-ae-22-2.tcore1.nto-newyork.as6453.net  TTL = 244  rtt = 79.818
+hop = 11  IP = 63.243.128.31   rDNS = if-ae-0-2.tcore1.sqn-sanjose.as6453.net  TTL = 238  rtt = 139.909
+hop = 12  IP = 63.243.205.2   rDNS = if-ae-1-2.tcore2.sqn-sanjose.as6453.net  TTL = 55  rtt = 145.374

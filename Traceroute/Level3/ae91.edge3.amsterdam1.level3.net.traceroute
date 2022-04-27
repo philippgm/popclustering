@@ -1,0 +1,82 @@
+Probe 24.134.86.77
+hop = 1  IP = 192.168.178.1   No rDNS  TTL = 64 rtt = 1.707
+hop = 2  IP = 83.169.161.58   No rDNS  TTL = 63 rtt = 16.879
+hop = 3  IP = 83.169.132.183   No rDNS  TTL = 253 rtt = 12.659
+hop = 4  IP = 145.254.3.86   No rDNS  TTL = 252 rtt = 11.766
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+Probe 77.70.15.131
+hop = 1  IP = 192.168.253.1   No rDNS  TTL = 254 rtt = 1.399
+hop = 2  IP = 77.70.102.1   No rDNS  TTL = 254 rtt = 4.988
+hop = 3  IP = 212.187.175.210   No rDNS  TTL = 62 rtt = 2.871
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+Probe 62.91.124.131
+hop = 1  IP = 192.168.178.1   No rDNS  TTL = 64 rtt = 6.409
+hop = 2  IP = 62.91.62.222   No rDNS  TTL = 254 rtt = 11.29
+hop = 3  IP = 62.91.0.200   No rDNS  TTL = 253 rtt = 10.305
+hop = 4  IP = 62.115.161.110   No rDNS  TTL = 252 rtt = 23.83
+hop = 5  IP = 62.115.121.6   No rDNS  TTL = 249 rtt = 10.552
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+hop = 11  IP = *   No rDNS  TTL = * rtt = *
+Probe 76.82.152.84
+hop = 1  IP = 192.168.1.1   No rDNS  TTL = 64 rtt = 9.671
+hop = 2  IP = 142.254.184.109   No rDNS  TTL = 63 rtt = 14.27
+hop = 3  IP = 76.167.27.201   No rDNS  TTL = 253 rtt = 37.267
+hop = 4  IP = 72.129.1.86   No rDNS  TTL = 252 rtt = 16.226
+hop = 5  IP = 72.129.1.0   No rDNS  TTL = 251 rtt = 172.302
+hop = 6  IP = 66.109.3.230   No rDNS  TTL = 250 rtt = 51.858
+hop = 7  IP = 66.109.6.5   No rDNS  TTL = 250 rtt = 25.85
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+hop = 11  IP = *   No rDNS  TTL = * rtt = *
+hop = 12  IP = *   No rDNS  TTL = * rtt = *
+hop = 13  IP = *   No rDNS  TTL = * rtt = *
+Probe 109.207.97.99
+hop = 1  IP = 10.0.0.1   No rDNS  TTL = 64 rtt = 1.349
+hop = 2  IP = 10.254.251.78   No rDNS  TTL = 63 rtt = 1.341
+hop = 3  IP = 192.168.201.6   No rDNS  TTL = 62 rtt = 1.665
+hop = 4  IP = 176.126.56.40   No rDNS  TTL = 61 rtt = 2.022
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+Probe 83.226.78.137
+hop = 1  IP = 192.168.50.1   No rDNS  TTL = 64 rtt = 8.22
+hop = 2  IP = 83.226.3.1   No rDNS  TTL = 254 rtt = 10.965
+hop = 3  IP = 213.112.121.189   No rDNS  TTL = 253 rtt = 2.005
+hop = 4  IP = 146.172.70.207   No rDNS  TTL = 252 rtt = 1.823
+hop = 5  IP = 146.172.15.74   No rDNS  TTL = 248 rtt = 3.057
+hop = 6  IP = 146.172.105.57   No rDNS  TTL = 250 rtt = 17.364
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+hop = 11  IP = *   No rDNS  TTL = * rtt = *
+hop = 12  IP = *   No rDNS  TTL = * rtt = *
+Probe 2.99.123.167
+hop = 1  IP = 172.16.0.1   No rDNS  TTL = 64 rtt = 1.58
+hop = 2  IP = 78.144.1.55   No rDNS  TTL = 253 rtt = 9.658
+hop = 3  IP = 78.144.1.54   No rDNS  TTL = 252 rtt = 8.334
+hop = 4  IP = 78.144.1.136   No rDNS  TTL = 251 rtt = 13.438
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = *   No rDNS  TTL = * rtt = *
+hop = 8  IP = *   No rDNS  TTL = * rtt = *
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+hop = 10  IP = *   No rDNS  TTL = * rtt = *

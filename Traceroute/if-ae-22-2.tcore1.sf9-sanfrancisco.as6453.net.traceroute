@@ -1,0 +1,61 @@
+Probe 95.43.102.100
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64
+hop = 2  IP = 82.137.110.2   rDNS = 82-137-110-2.ip.btc-net.bg  TTL = 63
+hop = 3  IP = 212.39.69.111   No rDNS  TTL = 62
+hop = 4  IP = 212.39.69.110   rDNS = 212-39-69-110.ip.btc-net.bg  TTL = 61
+hop = 5  IP = 212.162.31.221   rDNS = ae65-3500.bar1.Sofia2.Level3.net  TTL = 250
+hop = 6  IP = 195.219.190.2   No rDNS  TTL = 250
+hop = 7  IP = 195.219.190.67   No rDNS  TTL = 249
+hop = 8  IP = 80.231.208.37   No rDNS  TTL = 248
+hop = 9  IP = 195.219.194.149   No rDNS  TTL = 247
+hop = 10  IP = 195.219.194.6   No rDNS  TTL = 246
+hop = 11  IP = 80.231.131.160   No rDNS  TTL = 245
+hop = 12  IP = 80.231.131.2   No rDNS  TTL = 243
+hop = 13  IP = 80.231.130.20   No rDNS  TTL = 242
+hop = 14  IP = 63.243.128.17   No rDNS  TTL = 244
+hop = 15  IP = 63.243.128.31   No rDNS  TTL = 241
+hop = 16  IP = 63.243.205.2   No rDNS  TTL = 240
+hop = 17  IP = 64.86.21.102   No rDNS  TTL = 50
+Probe 82.64.170.202
+hop = 1  IP = 192.168.201.51   No rDNS  TTL = 64
+hop = 2  IP = 192.168.1.254   No rDNS  TTL = 64
+hop = 3  IP = 194.149.169.164   No rDNS  TTL = 254
+hop = 4  IP = *   No rDNS  TTL = *
+hop = 5  IP = 62.115.46.68   No rDNS  TTL = 253
+hop = 6  IP = 62.115.118.58   No rDNS  TTL = 250
+hop = 7  IP = 62.115.125.171   No rDNS  TTL = 251
+hop = 8  IP = 80.231.154.28   No rDNS  TTL = 250
+hop = 9  IP = 80.231.154.143   No rDNS  TTL = 249
+hop = 10  IP = 80.231.130.23   No rDNS  TTL = 250
+hop = 11  IP = 63.243.128.17   No rDNS  TTL = 249
+hop = 12  IP = 63.243.128.167   No rDNS  TTL = 242
+hop = 13  IP = 63.243.205.2   No rDNS  TTL = 241
+hop = 14  IP = 64.86.21.102   No rDNS  TTL = 49
+Probe 218.219.147.64
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64
+hop = 2  IP = 218.219.145.2   rDNS = flets-nte-poi2.edit.ne.jp  TTL = 254
+hop = 3  IP = 218.219.145.1   rDNS = flets-gw-poi2.edit.ne.jp  TTL = 62
+hop = 4  IP = 218.219.145.33   No rDNS  TTL = 60
+hop = 5  IP = 65.49.108.209   No rDNS  TTL = 59
+hop = 6  IP = 184.105.213.117   No rDNS  TTL = 58
+hop = 7  IP = 62.115.181.197   No rDNS  TTL = 248
+hop = 8  IP = 64.86.123.24   No rDNS  TTL = 245
+hop = 9  IP = 64.86.123.95   No rDNS  TTL = 246
+hop = 10  IP = 63.243.251.2   No rDNS  TTL = 247
+hop = 11  IP = 63.243.205.72   No rDNS  TTL = 248
+hop = 12  IP = 63.243.205.2   No rDNS  TTL = 247
+hop = 13  IP = 64.86.21.102   No rDNS  TTL = 55
+Probe 153.92.43.249
+hop = 1  IP = 153.92.43.254   No rDNS  TTL = 255
+hop = 2  IP = 10.255.255.2   No rDNS  TTL = 254
+hop = 3  IP = 185.74.25.250   No rDNS  TTL = 253
+hop = 4  IP = 94.31.7.60   No rDNS  TTL = 61
+hop = 5  IP = *   No rDNS  TTL = *
+hop = 6  IP = 64.125.28.151   No rDNS  TTL = 250
+hop = 7  IP = 80.231.62.1   No rDNS  TTL = 246
+hop = 8  IP = 80.231.62.57   No rDNS  TTL = 246
+hop = 9  IP = 80.231.20.107   No rDNS  TTL = 245
+hop = 10  IP = 63.243.128.17   No rDNS  TTL = 244
+hop = 11  IP = 63.243.128.31   No rDNS  TTL = 238
+hop = 12  IP = 63.243.205.2   No rDNS  TTL = 241
+hop = 13  IP = 64.86.21.102   No rDNS  TTL = 55

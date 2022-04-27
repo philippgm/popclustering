@@ -1,0 +1,68 @@
+Probe 95.43.102.100
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 0.793
+hop = 2  IP = 82.137.110.2   rDNS = 82-137-110-2.ip.btc-net.bg  TTL = 63  rtt = 0.992
+hop = 3  IP = 212.39.69.111   rDNS = 212-39-69-111.ip.btc-net.bg  TTL = 62  rtt = 1.345
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 212.162.31.221   rDNS = ae65-3500.bar1.Sofia2.Level3.net  TTL = 251  rtt = 1.252
+hop = 6  IP = 4.69.158.190   rDNS = ae2-3221.edge8.frankfurt1.level3.net  TTL = 249  rtt = 25.589
+hop = 7  IP = 129.250.9.5   rDNS = ae-37.r01.frnkge07.de.bb.gin.ntt.net  TTL = 249  rtt = 25.968
+hop = 8  IP = 129.250.4.78   rDNS = ae-5.r20.frnkge13.de.bb.gin.ntt.net  TTL = 246  rtt = 26.108
+hop = 9  IP = 129.250.3.12   rDNS = ae-14.r21.londen12.uk.bb.gin.ntt.net  TTL = 247  rtt = 37.462
+hop = 10  IP = 129.250.2.111   rDNS = ae-13.r25.asbnva02.us.bb.gin.ntt.net  TTL = 244  rtt = 114.024
+hop = 11  IP = 129.250.3.189   rDNS = ae-2.r25.lsanca07.us.bb.gin.ntt.net  TTL = 241  rtt = 169.344
+hop = 12  IP = *   No rDNS  TTL = * rtt = *
+hop = 13  IP = *   No rDNS  TTL = * rtt = *
+hop = 14  IP = *   No rDNS  TTL = * rtt = *
+hop = 15  IP = *   No rDNS  TTL = * rtt = *
+hop = 16  IP = *   No rDNS  TTL = * rtt = *
+hop = 17  IP = *   No rDNS  TTL = * rtt = *
+Probe 82.66.133.110
+hop = 1  IP = 192.168.1.254   No rDNS  TTL = 64 rtt = 0.617
+hop = 2  IP = 194.149.169.73   No rDNS  TTL = 254 rtt = 21.168
+hop = 3  IP = *   No rDNS  TTL = * rtt = *
+hop = 4  IP = 62.115.46.68   No rDNS  TTL = 252 rtt = 20.576
+hop = 5  IP = 62.115.118.62   No rDNS  TTL = 249 rtt = 20.757
+hop = 6  IP = 62.115.125.167   No rDNS  TTL = 250 rtt = 21.346
+hop = 7  IP = 129.250.9.13   rDNS = ae-5.a01.parsfr04.fr.bb.gin.ntt.net  TTL = 248  rtt = 20.726
+hop = 8  IP = 129.250.4.149   rDNS = ae-8.r21.parsfr04.fr.bb.gin.ntt.net  TTL = 249  rtt = 23.761
+hop = 9  IP = 129.250.6.6   rDNS = ae-13.r24.asbnva02.us.bb.gin.ntt.net  TTL = 247  rtt = 98.779
+hop = 10  IP = 129.250.6.237   rDNS = ae-2.r24.snjsca04.us.bb.gin.ntt.net  TTL = 240  rtt = 157.698
+hop = 11  IP = 129.250.3.147   rDNS = ae-0.r25.snjsca04.us.bb.gin.ntt.net  TTL = 240  rtt = 156.08
+hop = 12  IP = *   No rDNS  TTL = * rtt = *
+hop = 13  IP = *   No rDNS  TTL = * rtt = *
+hop = 14  IP = *   No rDNS  TTL = * rtt = *
+hop = 15  IP = *   No rDNS  TTL = * rtt = *
+hop = 16  IP = *   No rDNS  TTL = * rtt = *
+hop = 17  IP = *   No rDNS  TTL = * rtt = *
+Probe 218.219.147.64
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 0.879
+hop = 2  IP = 218.219.145.2   rDNS = flets-nte-poi2.edit.ne.jp  TTL = 254  rtt = 4.668
+hop = 3  IP = 218.219.145.1   rDNS = flets-gw-poi2.edit.ne.jp  TTL = 62  rtt = 5.016
+hop = 4  IP = 218.219.145.33   No rDNS  TTL = 60 rtt = 4.567
+hop = 5  IP = 218.219.145.30   No rDNS  TTL = 60 rtt = 6.68
+hop = 6  IP = 202.17.189.121   No rDNS  TTL = 250 rtt = 4.769
+hop = 7  IP = 61.120.145.241   rDNS = xe-0-0-15-0.a01.tokyjp08.jp.bb.gin.ntt.net  TTL = 248  rtt = 5.106
+hop = 8  IP = 129.250.6.141   rDNS = ae-6.r01.tokyjp08.jp.bb.gin.ntt.net  TTL = 246  rtt = 6.205
+hop = 9  IP = *   No rDNS  TTL = * rtt = *
+hop = 10  IP = *   No rDNS  TTL = * rtt = *
+hop = 11  IP = *   No rDNS  TTL = * rtt = *
+hop = 12  IP = *   No rDNS  TTL = * rtt = *
+hop = 13  IP = *   No rDNS  TTL = * rtt = *
+hop = 14  IP = *   No rDNS  TTL = * rtt = *
+Probe 153.92.43.249
+hop = 1  IP = 153.92.43.254   No rDNS  TTL = 255 rtt = 0.282
+hop = 2  IP = 10.255.255.2   No rDNS  TTL = 254 rtt = 0.385
+hop = 3  IP = 185.74.25.250   No rDNS  TTL = 253 rtt = 1.241
+hop = 4  IP = 94.31.7.60   No rDNS  TTL = 61 rtt = 1.314
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = 64.125.28.151   No rDNS  TTL = 250 rtt = 0.938
+hop = 7  IP = 64.125.12.102   No rDNS  TTL = 249 rtt = 1.5
+hop = 8  IP = 129.250.3.212   rDNS = ae-0.r20.londen12.uk.bb.gin.ntt.net  TTL = 246  rtt = 5.105
+hop = 9  IP = 129.250.6.147   rDNS = ae-7.r20.nwrknj03.us.bb.gin.ntt.net  TTL = 244  rtt = 69.47
+hop = 10  IP = 129.250.6.177   rDNS = ae-4.r24.sttlwa01.us.bb.gin.ntt.net  TTL = 238  rtt = 133.231
+hop = 11  IP = *   No rDNS  TTL = * rtt = *
+hop = 12  IP = *   No rDNS  TTL = * rtt = *
+hop = 13  IP = *   No rDNS  TTL = * rtt = *
+hop = 14  IP = *   No rDNS  TTL = * rtt = *
+hop = 15  IP = *   No rDNS  TTL = * rtt = *
+hop = 16  IP = *   No rDNS  TTL = * rtt = *

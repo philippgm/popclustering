@@ -1,0 +1,53 @@
+Probe 95.43.102.100
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 4.268
+hop = 2  IP = 82.137.110.2   rDNS = 82-137-110-2.ip.btc-net.bg  TTL = 63  rtt = 0.976
+hop = 3  IP = *   No rDNS  TTL = * rtt = *
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 212.162.31.221   rDNS = ae65-3500.bar1.Sofia2.Level3.net  TTL = 250  rtt = 1.344
+hop = 6  IP = 195.219.190.2   No rDNS  TTL = 250 rtt = 2.348
+hop = 7  IP = 195.219.190.67   No rDNS  TTL = 249 rtt = 8.996
+hop = 8  IP = 80.231.208.37   rDNS = if-ae-27-2.tcore1.fnm-frankfurt.as6453.net  TTL = 248  rtt = 33.685
+hop = 9  IP = 195.219.194.149   rDNS = if-ae-6-2.tcore1.av2-amsterdam.as6453.net  TTL = 247  rtt = 39.225
+hop = 10  IP = 195.219.194.6   rDNS = if-ae-2-2.tcore2.av2-amsterdam.as6453.net  TTL = 246  rtt = 40.579
+hop = 11  IP = 80.231.131.160   rDNS = if-ae-14-2.tcore2.l78-london.as6453.net  TTL = 245  rtt = 47.419
+hop = 12  IP = 80.231.131.118   rDNS = if-ae-15-2.tcore2.ldn-london.as6453.net  TTL = 244  rtt = 49.891
+hop = 13  IP = 216.6.81.32   rDNS = if-ae-32-4.tcore3.nto-newyork.as6453.net  TTL = 240  rtt = 124.182
+hop = 14  IP = 63.243.128.17   rDNS = if-ae-22-2.tcore1.nto-newyork.as6453.net  TTL = 244  rtt = 113.969
+hop = 15  IP = 63.243.128.167   rDNS = if-ae-36-2.tcore1.sqn-sanjose.as6453.net  TTL = 50  rtt = 173.182
+Probe 82.64.170.202
+hop = 1  IP = 192.168.201.51   No rDNS  TTL = 64 rtt = 0.811
+hop = 2  IP = 192.168.1.254   No rDNS  TTL = 64 rtt = 0.586
+hop = 3  IP = 194.149.169.85   No rDNS  TTL = 254 rtt = 8.32
+hop = 4  IP = *   No rDNS  TTL = * rtt = *
+hop = 5  IP = 62.115.46.68   No rDNS  TTL = 253 rtt = 7.833
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = 62.115.125.171   No rDNS  TTL = 251 rtt = 8.675
+hop = 8  IP = 80.231.154.28   rDNS = ix-ae-25-0.tcore1.pye-paris.as6453.net  TTL = 250  rtt = 8.835
+hop = 9  IP = 80.231.154.143   rDNS = if-ae-3-2.tcore1.l78-london.as6453.net  TTL = 249  rtt = 16.002
+hop = 10  IP = 80.231.130.214   rDNS = if-ae-66-12.tcore3.nto-newyork.as6453.net  TTL = 250  rtt = 83.52
+hop = 11  IP = 63.243.128.17   rDNS = if-ae-22-2.tcore1.nto-newyork.as6453.net  TTL = 249  rtt = 84.887
+hop = 12  IP = 63.243.128.167   rDNS = if-ae-36-2.tcore1.sqn-sanjose.as6453.net  TTL = 51  rtt = 149.062
+Probe 218.219.147.64
+hop = 1  IP = 192.168.0.1   No rDNS  TTL = 64 rtt = 1.803
+hop = 2  IP = 218.219.145.2   rDNS = flets-nte-poi2.edit.ne.jp  TTL = 254  rtt = 4.777
+hop = 3  IP = 218.219.145.1   rDNS = flets-gw-poi2.edit.ne.jp  TTL = 62  rtt = 4.974
+hop = 4  IP = 218.219.145.33   No rDNS  TTL = 60 rtt = 4.823
+hop = 5  IP = 65.49.108.209   No rDNS  TTL = 59 rtt = 6.512
+hop = 6  IP = 184.105.213.117   rDNS = 100ge11-1.core1.sea1.he.net  TTL = 58  rtt = 85.602
+hop = 7  IP = 62.115.181.197   No rDNS  TTL = 248 rtt = 88.344
+hop = 8  IP = 64.86.123.24   rDNS = ix-ae-16-0.tcore1.00s-seattle.as6453.net  TTL = 245  rtt = 107.598
+hop = 9  IP = 64.86.123.95   rDNS = if-ae-20-2.tcore1.sv1-santaclara.as6453.net  TTL = 246  rtt = 108.577
+hop = 10  IP = 63.243.251.2   rDNS = if-ae-0-2.tcore2.sv1-santaclara.as6453.net  TTL = 247  rtt = 108.667
+hop = 11  IP = 63.243.128.167   rDNS = if-ae-36-2.tcore1.sqn-sanjose.as6453.net  TTL = 57  rtt = 109.147
+Probe 153.92.43.249
+hop = 1  IP = 153.92.43.254   No rDNS  TTL = 255 rtt = 0.205
+hop = 2  IP = 10.255.255.2   No rDNS  TTL = 254 rtt = 0.189
+hop = 3  IP = 185.74.25.250   No rDNS  TTL = 253 rtt = 1.14
+hop = 4  IP = 94.31.7.60   No rDNS  TTL = 61 rtt = 1.064
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = 64.125.28.151   No rDNS  TTL = 250 rtt = 1.393
+hop = 7  IP = 80.231.62.1   rDNS = ix-ae-33-0.tcore1.ldn-london.as6453.net  TTL = 246  rtt = 1.191
+hop = 8  IP = 80.231.62.57   rDNS = if-ae-26-2.tcore2.ldn-london.as6453.net  TTL = 246  rtt = 5.311
+hop = 9  IP = 80.231.20.107   rDNS = if-ae-32-3.tcore3.nto-newyork.as6453.net  TTL = 245  rtt = 77.602
+hop = 10  IP = 63.243.128.17   rDNS = if-ae-22-2.tcore1.nto-newyork.as6453.net  TTL = 244  rtt = 79.862
+hop = 11  IP = 63.243.128.167   rDNS = if-ae-36-2.tcore1.sqn-sanjose.as6453.net  TTL = 47  rtt = 140.44

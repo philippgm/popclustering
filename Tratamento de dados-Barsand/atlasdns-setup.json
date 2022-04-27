@@ -1,0 +1,921 @@
+{
+    "loglevel": "info",
+    "cert_file": "/config/cert/server.crt",
+    "host": "target-manager",
+    "domain": "atlas.winet.dcc.ufmg.br",
+    "ca_certs": "/config/cert/ca.crt",
+    "ripe_api_key": "",
+    "query_log_path": "/config/query.log",
+    "nameservers": [
+        "127.0.0.1"
+    ],
+    "ttl": 3600,
+    "soa": "atlas.winet.dcc.ufmg.br 20181017 7200 3600 7200 120",
+    "handlers": [
+        {
+            "file": "/config/target_files/ipaddr_lists/targets1.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster1.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\t194.150.190.134/32": "/config/target_files/ipaddr_lists/targets1.txt",
+                "2604\t74.125.181.11\t37.46.88.0/24": "/config/target_files/ipaddr_lists/targets1.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets2.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster2.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets2.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets3.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster3.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets3.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets4.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster4.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets4.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets5.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster5.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets5.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets6.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster6.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets6.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets7.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster7.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets7.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets8.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster8.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets8.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets9.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster9.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets9.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets10.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster10.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets10.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets11.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster11.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets11.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets12.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster12.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets12.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets13.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster13.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets13.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets14.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster14.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets14.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets15.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster15.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets15.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets16.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster16.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets16.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets17.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster17.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets17.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets18.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster18.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets18.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets19.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster19.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets19.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets20.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster20.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets20.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets21.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster21.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets21.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets22.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster22.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets22.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets23.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster23.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets23.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets24.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster24.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets24.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets25.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster25.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets25.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets26.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster26.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets26.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets27.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster27.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets27.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets28.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster28.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets28.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets29.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster29.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets29.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets30.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster30.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets30.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets31.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster31.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets31.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets32.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster32.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets32.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets33.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster33.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets33.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets34.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster34.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets34.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets35.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster35.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets35.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets36.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster36.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets36.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets37.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster37.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets37.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets38.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster38.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets38.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets39.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster39.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets39.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets40.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster40.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets40.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets41.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster41.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets41.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets42.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster42.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets42.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets43.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster43.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets43.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets44.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster44.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets44.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets45.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster45.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets45.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets46.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster46.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets46.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets47.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster47.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets47.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets48.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster48.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets48.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets49.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster49.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets49.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets50.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster50.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets50.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets51.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster51.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets51.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets52.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster52.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets52.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets53.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster53.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets53.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets54.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster54.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets54.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets55.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster55.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets55.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets56.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster56.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets56.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets57.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster57.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets57.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets58.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster58.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets58.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets59.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster59.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets59.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets60.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster60.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets60.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets61.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster61.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets61.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets62.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster62.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets62.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets63.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster63.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets63.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets64.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster64.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets64.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets65.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster65.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets65.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets66.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster66.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets66.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets67.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster67.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets67.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets68.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster68.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets68.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets69.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster69.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets69.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets70.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster70.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets70.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets71.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster71.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets71.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets72.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster72.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets72.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets73.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster73.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets73.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets74.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster74.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets74.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets75.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster75.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets75.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets76.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster76.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets76.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets77.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster77.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets77.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets78.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster78.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets78.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets79.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster79.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets79.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets80.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster80.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets80.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets81.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster81.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets81.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets82.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster82.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets82.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets83.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster83.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets83.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets84.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster84.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets84.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets85.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster85.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets85.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets86.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster86.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets86.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets87.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster87.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets87.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets88.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster88.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets88.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets89.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster89.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets89.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets90.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster90.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets90.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets91.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster91.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets91.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets92.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster92.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets92.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets93.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster93.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets93.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets94.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster94.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets94.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets95.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster95.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets95.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets96.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster96.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets96.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets97.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster97.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets97.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets98.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster98.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets98.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets99.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster99.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets99.txt"
+            }
+        },
+        {
+            "file": "/config/target_files/ipaddr_lists/targets100.txt",
+            "qtype": "A",
+            "users": "/config/target_files/allowed_users0.txt",
+            "qname": "popcluster100.atlas.winet.dcc.ufmg.br",
+            "vp_specs": {
+                "2074\tnull\tnull": "/config/target_files/ipaddr_lists/targets100.txt"
+            }
+        }
+    ],
+    "valid_networks": "/config/target_files/valid_networks.txt",
+    "admins": "/config/target_files/admins.txt",
+    "pkey_file": "/config/cert/server.key",
+    "valid_names": "/config/target_files/valid_names.txt"
+}

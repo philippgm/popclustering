@@ -1,0 +1,56 @@
+Probe 24.134.86.77
+hop = 1  IP = 192.168.178.1   No rDNS  TTL = 64 rtt = 1.683
+hop = 2  IP = 83.169.161.58   No rDNS  TTL = 63 rtt = 14.986
+hop = 3  IP = 83.169.132.178   No rDNS  TTL = 253 rtt = 11.695
+hop = 4  IP = 145.254.3.60   No rDNS  TTL = 252 rtt = 10.697
+hop = 5  IP = *   No rDNS  TTL = * rtt = *
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = 4.68.72.213   No rDNS  TTL = 248 rtt = 23.749
+hop = 8  IP = 62.67.38.49   rDNS = 8-2-2.ear4.Frankfurt1.Level3.net  TTL = 57  rtt = 15.74
+Probe 77.70.15.131
+hop = 1  IP = 192.168.253.1   No rDNS  TTL = 254 rtt = 1.193
+hop = 2  IP = 77.70.102.1   No rDNS  TTL = 254 rtt = 4.166
+hop = 3  IP = 212.187.175.210   No rDNS  TTL = 62 rtt = 2.848
+hop = 4  IP = 212.187.175.209   No rDNS  TTL = 251 rtt = 2.869
+hop = 5  IP = 62.67.38.49   rDNS = 8-2-2.ear4.Frankfurt1.Level3.net  TTL = 60  rtt = 32.43
+Probe 62.91.124.131
+hop = 1  IP = 192.168.178.1   No rDNS  TTL = 64 rtt = 1.396
+hop = 2  IP = 62.91.62.222   No rDNS  TTL = 254 rtt = 11.32
+hop = 3  IP = 62.91.0.200   No rDNS  TTL = 253 rtt = 10.524
+hop = 4  IP = 62.115.161.110   No rDNS  TTL = 252 rtt = 10.833
+hop = 5  IP = 62.115.121.0   No rDNS  TTL = 249 rtt = 11.578
+hop = 6  IP = *   No rDNS  TTL = * rtt = *
+hop = 7  IP = 62.67.38.49   rDNS = 8-2-2.ear4.Frankfurt1.Level3.net  TTL = 59  rtt = 14.43
+Probe 76.82.152.84
+hop = 1  IP = 192.168.1.1   No rDNS  TTL = 64 rtt = 8.546
+hop = 2  IP = 142.254.184.109   No rDNS  TTL = 63 rtt = 11.814
+hop = 3  IP = 76.167.27.201   No rDNS  TTL = 253 rtt = 177.003
+hop = 4  IP = 72.129.1.86   No rDNS  TTL = 252 rtt = 21.59
+hop = 5  IP = 72.129.1.0   No rDNS  TTL = 251 rtt = 18.757
+hop = 6  IP = 209.18.43.62   No rDNS  TTL = 250 rtt = 26.601
+hop = 7  IP = 66.109.6.5   No rDNS  TTL = 250 rtt = 20.038
+hop = 8  IP = 4.68.111.101   No rDNS  TTL = 248 rtt = 19.786
+hop = 9  IP = 62.67.38.49   rDNS = 8-2-2.ear4.Frankfurt1.Level3.net  TTL = 52  rtt = 172.791
+Probe 109.207.97.99
+hop = 1  IP = 10.0.0.1   No rDNS  TTL = 64 rtt = 1.367
+hop = 2  IP = 10.254.251.78   No rDNS  TTL = 63 rtt = 1.388
+hop = 3  IP = 192.168.201.6   No rDNS  TTL = 62 rtt = 1.359
+hop = 4  IP = 176.126.56.40   No rDNS  TTL = 61 rtt = 2.56
+hop = 5  IP = 212.187.202.113   No rDNS  TTL = 250 rtt = 11.397
+hop = 6  IP = 62.67.38.49   rDNS = 8-2-2.ear4.Frankfurt1.Level3.net  TTL = 59  rtt = 26.09
+Probe 83.226.78.137
+hop = 1  IP = 192.168.50.1   No rDNS  TTL = 64 rtt = 7.682
+hop = 2  IP = 83.226.3.1   No rDNS  TTL = 254 rtt = 1.883
+hop = 3  IP = 213.112.121.189   No rDNS  TTL = 253 rtt = 2.273
+hop = 4  IP = 146.172.70.207   No rDNS  TTL = 252 rtt = 2.396
+hop = 5  IP = 146.172.15.74   No rDNS  TTL = 248 rtt = 2.733
+hop = 6  IP = 146.172.105.62   No rDNS  TTL = 250 rtt = 2.398
+hop = 7  IP = 213.242.69.253   No rDNS  TTL = 248 rtt = 3.059
+hop = 8  IP = 62.67.38.49   rDNS = 8-2-2.ear4.Frankfurt1.Level3.net  TTL = 57  rtt = 33.877
+Probe 2.99.123.167
+hop = 1  IP = 172.16.0.1   No rDNS  TTL = 64 rtt = 1.332
+hop = 2  IP = 78.144.1.55   No rDNS  TTL = 253 rtt = 8.556
+hop = 3  IP = 78.144.1.26   No rDNS  TTL = 252 rtt = 10.065
+hop = 4  IP = 78.144.1.114   No rDNS  TTL = 251 rtt = 8.353
+hop = 5  IP = 217.163.47.149   No rDNS  TTL = 247 rtt = 19.901
+hop = 6  IP = 62.67.38.49   rDNS = 8-2-2.ear4.Frankfurt1.Level3.net  TTL = 54  rtt = 22.461
