@@ -3,6 +3,41 @@
 
 Nesse repositório contém arquivos relacionados ao desenvolvimento do trabalho de conclusão de curso de Engenharia de Sistemas 2021/1e2 de Philippe Garandy com a orientação dos profesores Dr.Ítalo Cunha e Mestre Elverton Fazzion.
 
+### Descrição dos scripts
+	- Clustering_for_metric.py
+	Esse arquivo contém um script para a execução do agrupamento de roteadores. Nesse script é usado a métrica proposta no projeto "iPlane: An Information Plane for Distributed Services".
+	Em execução, esse script carrega os resultados das medições presentes no banco de dados MeasurementsRIPEAtlas.db. De forma iterativa, um roteador por véz, o script vai agrupando os roteadores em clusters nos quais a "distância" entre o roteador e o cluster é menor que 1.
+	Ao final de cada execução é gerado um arquivo com os resultados. Os resultados são armazenados em arquivos no diretório "clusters". Esse arquivo é composto por duas colunas: 1ª coluna contém o IP(em formato de int) do roteador e 2ª coluna contém o indice do grupo ao qual ele pertence. 
+	Clustering_for_metric.py foi desenvolvido através de adaptações do código "apple.py" cedido pelo professor Ítalo Cunha.
+
+	- Clustering_for_rDNS.py
+	Esse arquivo contém um script para a execução do agrupamento de roteadores. Entretanto, diferentimente do arquivo anterior ele utiliza o DNS dos roteadores para realizar o agrupamento. Ele utiliza a técnica de maior prefixo em comum como critério.
+	Ao final da execução é gerado um arquivo chamado "Result_cluster_for_rDNS" com o resultado. Esse arquivo é composto por três colunas: 1ª coluna contém o IP(em octetos) do roteadores, 2ª coluna contém o indice do grupo ao qual ele pertence e a 3ª coluna contém o DNS do roteador.
+	Utilizando esse script somente é realizado o agrupamento dos roteadores que possuem rDNS. Os rDNS foram obtidos executando uma adaptação do código do "TODDs". Os códigos adaptados estão contidos no diretório rDNSmaster.
+
+	- Create_handle_db.ipynb
+	No arquivo Create_handle_db.ipynb contém códigos utilizados para manipular e criar as tabelas do banco de dados.
+
+	- Code_aux.ipynb
+	Arquivo com alguns scripts que axiliaram nas análises de composição de PoPs. 
+	1ª célula - Contém um script que busca os resultados de medições do tipo traceroute já realizadas no RIPE Atlas. Como o RIPE Atlas fornece somente os IPs dos roteadores presentes na rota de um traceroute, esse scripts melhora a visualização da rota acrecentando os rDNS dos roteadores da rota (os quais possuem um rDNS).
+	2ª célula - Realiza o agendamento de medições do tipo traceroute no RIPE Atlas. Os roteadores alvos devem estar em uma lista  presente no arquivo nomeado como "IP_2_traceroute". A lista deve conter o IP do roteador, o índice do PoP o qual o roteador pertence e o rDNS do roteador, como por exemplo: 213.19.198.209 <<3>> ae91.edge3.amsterdam1.level3.net (esse é o formato de dados gerado pela função "Create_output_with_rDNS" que está presente no arquivo "Mylib.py"). Os ids das medições são armazenados no arquivo nomeado como "measurement_traceroute". O arquivo "traceroute_id_measurement" contém os ids de todas as medições agendadas no RIPE Atlas, no entanto, esse arquivo deve ser atualizado manualmente a cada execução da 2ª célula.
+
+	3ª célula -
+
+	4ª célula - O script armazena todos os resultados de todas as medições traceroutes já realizadas em um único arquivo. Esse arquivo é usado no script de comparação de traceroute (a função de comparação é a "analysis_traceroute" presente no arquivo Mylib.py). Essa célula deve ser executada após cada execução da 2ª célula.
+
+Process_results_clusters.ipynb
+
+Arquivo com alguns scripts que axiliaram no processamento dos resultados dos agrupamentos.
+	1ª célula - Contém um script que fornece estatisticas de agrupamentos. É preciso alterar o nome do arquivo com o resutado do agrupamento (Arquivo gerado na saída do script "clustering_for_metric.py").
+	2ª célula - Melhora a formatação do resultado do agrupamento.
+	
+	3ª célula - Cria um arquivo contendo as similaridade entre o resultado do agrupamento e o pseudo Groundtruth. É necessário alterar o nome do arquivo que contém o resultado do agrupamento.
+	4ª célula - Carrega os dados das medições.
+
+	5ª célula - É um script para obter o vetor de comprimento de caminho reverso de determinado roteado no momento de sua classificação.
+
 ### Medições
 
         * Informações sobre os agendamentos são armazenados em logs nomeados pela data do agendamento.
@@ -27,39 +62,6 @@ MeasurementsRIPEAtlas.db possui 3 tabelas:
 
 
 No arquivo Create_handle_db.ipynb contém códigos utilizados para manipular e criar as tabelas.
-
-
-### Resultados dos agrupamentos
-
-O agrupamento é realizado executando o código clustering_for_metric.py. Os resultados são armazenados em arquivos no diretório "clusters".
-Clustering_for_metric.py foi desenvolvido atraves de adaptações do código "apple.py" cedido pelo professor Ítalo Cunha.
-
-Também foi desenvolvido um agrupador de roteadores usando o rDNS. O código está contido no arquivo chamado clustering_for_rDNS.py.
-Os rDNS foram obtidos executando uma adaptação do código do "TODDs". Os códigos adaptados estão contidos no diretório rDNSmaster.
-
-
-
-
-
-Code_aux.ipynb
- Arquivo com alguns scripts que axiliaram nas análises de composição de PoPs. 
-	1ª célula - Contém um script que busca os resultados de medições do tipo traceroute já realizadas no RIPE Atlas. Como o RIPE Atlas fornece somente os IPs dos roteadores presentes na rota de um traceroute, esse scripts melhora a visualização da rota acrecentando os rDNS dos roteadores da rota (os quais possuem um rDNS).
-	2ª célula - Realiza o agendamento de medições do tipo traceroute no RIPE Atlas. Os roteadores alvos devem estar em uma lista  presente no arquivo nomeado como "IP_2_traceroute". A lista deve conter o IP do roteador, o índice do PoP o qual o roteador pertence e o rDNS do roteador, como por exemplo: 213.19.198.209 <<3>> ae91.edge3.amsterdam1.level3.net (esse é o formato de dados gerado pela função "Create_output_with_rDNS" que está presente no arquivo "Mylib.py"). Os ids das medições são armazenados no arquivo nomeado como "measurement_traceroute". O arquivo "traceroute_id_measurement" contém os ids de todas as medições agendadas no RIPE Atlas, no entanto, esse arquivo deve ser atualizado manualmente a cada execução da 2ª célula.
-
-	3ª célula -
-
-	4ª célula - O script armazena todos os resultados de todas as medições traceroutes já realizadas em um único arquivo. Esse arquivo é usado no script de comparação de traceroute (a função de comparação é a "analysis_traceroute" presente no arquivo Mylib.py). Essa célula deve ser executada após cada execução da 2ª célula.
-
-Process_results_clusters.ipynb
-
-Arquivo com alguns scripts que axiliaram no processamento dos resultados dos agrupamentos.
-	1ª célula - Contém um script que fornece estatisticas de agrupamentos. É preciso alterar o nome do arquivo com o resutado do agrupamento (Arquivo gerado na saída do script "clustering_for_metric.py").
-	2ª célula - Melhora a formatação do resultado do agrupamento.
-	
-	3ª célula - Cria um arquivo contendo as similaridade entre o resultado do agrupamento e o pseudo Groundtruth. É necessário alterar o nome do arquivo que contém o resultado do agrupamento.
-	4ª célula - Carrega os dados das medições.
-
-	5ª célula - É um script para obter o vetor de comprimento de caminho reverso de determinado roteado no momento de sua classificação.
 
 
 ### Resultado do agrupamento
